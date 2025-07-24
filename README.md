@@ -17,7 +17,7 @@ This feature works seamlessly in both directions, so you can effortlessly switch
 
 # Installation Guide
 
-To install the CatTube extension, follow these steps:
+To install the Persian/English Typo Converter extension, follow these steps:
 
 1. Visit the Mozilla Add-ons website: [Persian/English Typo Converter](https://addons.mozilla.org/en-US/firefox/addon/persian-english-typo-converter/).
 2. Click the "Add to Firefox" button,
