@@ -18,37 +18,37 @@ body {
 }
 
 .body {
-  width: 320px;  
-  padding: 4px 12px;  
+  width: 288px;
+  padding: 4px 11px;
   box-sizing: border-box;
-  text-align: center;   
+  text-align: center;
 }
 
 .header-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .logo {
   display: block;
   margin: 0 auto 0 auto;
-  width: 100px !important;
-  height: 104.5px !important;  
+  width: 90px !important;
+  height: 94px !important;
   object-fit: contain;
 }
 
 .title {
-  font-size: 1.1em;
+  font-size: 1.0em;
   font-weight: bold;
   color: #333;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .subtitle {
-  font-size: 0.85em;
+  font-size: 0.77em;
   font-weight: bold;
   color: #555;
   margin-top: 0;
@@ -58,39 +58,40 @@ body {
 
 #buttonContainer {
   display: flex;
-  gap: 12px;
-  margin-bottom: 8px;
+  gap: 11px;
+  margin-bottom: 7px;
 }
 
 .button {
-  flex: 1;  
-  padding: 8px;
-  margin: 0;  
-  font-size: 0.9em;
+  flex: 1;
+  padding: 7px;
+  margin: 0;
+  font-size: 0.81em;
+  font-weight: 600;
   font-family: sans-serif;
   color: #333;
   background: #e0e5ec;
   border: none;
-  border-radius: 10px;
+  border-radius: 9px;
   cursor: pointer;
-  box-shadow: 4px 4px 8px #bebebe,
-              -4px -4px 8px #ffffff;
+  box-shadow: 3px 3px 6px #bebebe,
+              -3px -3px 6px #ffffff;
   transition: all 0.8s ease-in-out;
 }
 
 .button:active {
-  box-shadow: inset 4px 4px 8px #bebebe,
-              inset -4px -4px 8px #ffffff;
+  box-shadow: inset 3px 3px 6px #bebebe,
+              inset -3px -3px 6px #ffffff;
 }
 
 #donateSection {
   display: none;
-  margin-top: 12px;
-  padding: 10px;
-  border-radius: 12px;
+  margin-top: 11px;
+  padding: 9px;
+  border-radius: 11px;
   background: var(--bg-color);
-  box-shadow: inset 5px 5px 10px var(--shadow-dark),
-              inset -5px -5px 10px var(--shadow-light);
+  box-shadow: inset 4px 4px 9px var(--shadow-dark),
+              inset -4px -4px 9px var(--shadow-light);
 }
 
 #donateSection.visible {
@@ -104,13 +105,13 @@ body {
 }
 
 .wallet-info:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .wallet-details {
   flex-grow: 1;
   text-align: left;
-  margin-left: 10px;
+  margin-left: 9px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,11 +124,11 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
-  gap: 5px;
+  gap: 4px;
 }
 
 .label-container h5 {
-  font-size: 0.6em;
+  font-size: 0.54em;
   font-weight: normal;
   color: #555;
   margin: 0;
@@ -136,7 +137,7 @@ body {
 }
 
 .wallet-info label {
-  font-size: 0.85em;
+  font-size: 0.77em;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -147,40 +148,40 @@ body {
   justify-content: space-between;
   background: var(--bg-color);
   padding: 0;
-  border-radius: 8px;
-  box-shadow: inset 2px 2px 5px var(--shadow-dark),
-              inset -2px -2px 5px var(--shadow-light);
+  border-radius: 7px;
+  box-shadow: inset 2px 2px 4px var(--shadow-dark),
+              inset -2px -2px 4px var(--shadow-light);
 }
 
 .wallet-address {
-  font-size: 0.8em;
+  font-size: 0.72em;
   margin: 0;
-  padding: 4px 8px;
+  padding: 4px 7px;
   color: var(--text-color);
   direction: ltr;
   text-align: left;
   word-break: break-all;
   flex-grow: 1;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 7px;
   transition: color 0.1s, background-color 0.1s, box-shadow 0.1s;
 }
 
 .wallet-address.copied {
   background-color: var(--primary-color);
   color: #ffffff;
-  box-shadow: 0 0 5px var(--primary-color);
+  box-shadow: 0 0 4px var(--primary-color);
 }
 
 .qr-code {
   display: block;
-  width: 65px;
-  height: 65px;
+  width: 58px;
+  height: 58px;
   margin: 0;
-  border-radius: 8px;
+  border-radius: 7px;
   padding: 2px;
   background: #fff;
-  box-shadow: 2px 2px 5px #bebebe,
-              -2px -2px 5px #ffffff;
+  box-shadow: 2px 2px 4px #bebebe,
+              -2px -2px 4px #ffffff;
   flex-shrink: 0;
 }
