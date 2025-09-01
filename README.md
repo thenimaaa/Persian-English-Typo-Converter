@@ -1,8 +1,6 @@
 # Persian/English Typo Converter
 A Firefox extension that converts text typed in the wrong layout (Persian/English) to the correct one with a single press of Ctrl+Space.
 
-Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Estedad), an open-source font utilized in this project.
-
 
 ![Image](https://github.com/user-attachments/assets/c9541250-a8df-43a1-9379-c0bd5f5c3d49)
 
