@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
   "name": "Persian/English Typo Converter",
-  "version": "1.1",
+  "version": "1.1.2",
   "description": "Persian/English Typo Converter automatically corrects your text by converting it from the wrong keyboard layout to the intended language.",
   "permissions": [
     "activeTab",
     "tabs",
-    "storage" 
+    "storage"
   ],
   "browser_action": {
     "default_icon": "icons/icon.png",
