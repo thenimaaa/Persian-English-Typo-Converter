@@ -1,11 +1,12 @@
 {
   "manifest_version": 2,
   "name": "Persian/English Typo Converter",
-  "version": "1.0",
-  "description": "A Firefox extension that converts text typed in the wrong layout (Persian/English) to the correct one with a single press of Ctrl+Space.",
+  "version": "1.1",
+  "description": "Persian/English Typo Converter automatically corrects your text by converting it from the wrong keyboard layout to the intended language.",
   "permissions": [
     "activeTab",
-    "tabs"
+    "tabs",
+    "storage" 
   ],
   "browser_action": {
     "default_icon": "icons/icon.png",
@@ -13,20 +14,19 @@
     "default_popup": "ui.html"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "commands": {
     "toggle-conversion": {
       "suggested_key": {
         "default": "Ctrl+Space"
       },
-      "description": "اجرای تبدیل متن روی صفحه فعال"
+      "description": "Convert text in an active textbox."
     }
-  }
-
-,
+  },
   "icons": {
     "512": "icons/icon.png"
   }
-
 }
